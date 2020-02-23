@@ -4,8 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'echo Hello'
-                sh 'env'
-                
+                sh 'env' 
             }
         }
     }
